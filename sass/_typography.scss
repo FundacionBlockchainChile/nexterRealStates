@@ -6,6 +6,9 @@
 
 .heading-1 {
     @extend %heading;
+    font-size: 4.5rem;
+    color: $color-grey-light-1;
+    line-height: 1;
 }
 .heading-2 {
     @extend %heading;
@@ -48,7 +51,7 @@
     &:hover {
         background-color: $color-primary-dark;
         // color: $color-grey-dark-1;
-        box-shadow: 3px 3px 5px $color-grey-light-2;
+        // box-shadow: 3px 3px 5px $color-grey-light-2;
         
     }
 }
