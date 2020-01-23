@@ -56,6 +56,27 @@
     }
 }
 
+.zoom {
+    transition: all .2s;
+
+        &:hover,
+        &:active {
+            transform: scale(1.15);
+            // box-shadow: 3px 3px 5px $color-grey-light-2;
+            // fill: red;
+            // animation-name: pump;
+            // animation-duration: .2s;
+            // animation-iteration-count: 1;
+            // animation-timing-function: cubic-bezier(0,.62,1,.55);
+
+            // @keyframes pump {
+            //     0%   {transform: scale(1);}               
+                              
+            //     100% {transform: scale(1.05);}
+            //   }
+        }
+}
+
 .mb-sm {margin-bottom: 2rem;}
 .mb-md {margin-bottom: 3rem;}
 .mb-lg {margin-bottom: 4rem;}
